@@ -1,0 +1,72 @@
+/* Global */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Oswald", sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+  }
+
+  a {
+    color: #000000;
+    text-decoration: none;
+  }
+
+  ul {
+    list-style: none;
+  }
+  
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+
+  /* Navigation */
+  .nav-main {
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 35px 0;
+  }
+  
+  .nav-brand {
+    width: 5%;
+  }
+
+  /* Navbar Left */
+  .nav-main ul {
+    display: flex;
+  }
+  
+  .nav-main ul li {
+    padding: 10px;
+  }
+  
+  .nav-main ul li a {
+    padding: 2px;
+  }
+  
+  .nav-main ul li a:hover {
+    border-bottom: 2px solid #fff;
+  }
+  
+  .nav-main ul.nav-menu {
+    flex: 1;
+    margin-left: 22%;
+  }
+  
+  hr {
+    margin: 10px 0;
+  }
+
+  .nav-main div.links a {
+    padding: 5px;
+  }
+  
