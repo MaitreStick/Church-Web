@@ -6,6 +6,8 @@ const body = document.querySelector("body");
 const navbar = document.querySelector(".navbar");
 const menuBtn = document.querySelector(".menu-btn");
 const cancelBtn = document.querySelector(".cancel-btn");
+const inicio = document.querySelector(".inicio");
+const conocenos = document.querySelector(".conocenos");
 
 menuBtn.onclick = ()=>{
     navbar.classList.add("show");
@@ -16,6 +18,16 @@ cancelBtn.onclick = ()=>{
     body.classList.remove("disabled");
     navbar.classList.remove("show");
     menuBtn.classList.remove("hide");
+}
+inicio.onclick = ()=>{
+  body.classList.remove("disabled");
+  navbar.classList.remove("show");
+  menuBtn.classList.remove("hide");
+}
+conocenos.onclick = ()=>{
+  body.classList.remove("disabled");
+  navbar.classList.remove("show");
+  menuBtn.classList.remove("hide");
 }
 window.onscroll = ()=>{
     this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
